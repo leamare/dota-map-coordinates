@@ -5,9 +5,10 @@ import numpy as np
 with open('data/mapdata.json', 'r') as f:
     neutrals = []
     data = json.loads(f.read())['data']
-    for k in data['trigger_multiple']:
-        neutrals.append(k['name'])
-##        print k['name']
+    if (data.get('trigger_multiple')):
+        for k in data['trigger_multiple']:
+            neutrals.append(k['name'])
+    ##        print k['name']
 
 neutral_data = {}
 with open('data/dota_pvp_prefab.vmap.txt', 'r') as f:
@@ -33,13 +34,16 @@ with open('data/dota_pvp_prefab.vmap.txt', 'r') as f:
 
 for pt in data['npc_dota_neutral_spawner']:
     point = [pt['x'], pt['y']]
-    for trigger in data['trigger_multiple']:
-        points = []
-        for i in range(1, 5):
-            points.append([trigger[str(i)]['x'], trigger[str(i)]['y']])
-        bbPath = mplPath.Path(np.array(points))
-        if bbPath.contains_point(point):
-            pt['name'] = trigger['name']
-            pt['PullType'] = neutral_data[trigger['name']]['PullType']
-            pt['NeutralType'] = neutral_data[trigger['name']]['NeutralType']
-            break
+    if (data.get('trigger_multiple')):
+        for trigger in data['trigger_multiple']:
+            points = []
+            for i in range(1, 5):
+                points.append([trigger[str(i)]['x'], trigger[str(i)]['y']])
+            bbPath = mplPath.Path(np.array(points))
+            if bbPath.contains_point(point):
+                pt['name'] = trigger['name']
+                pt['PullType'] = neutral_data[trigger['name']]['PullType']
+                pt['NeutralType'] = neutral_data[trigger['name']]['NeutralType']
+                break
+
+print(neutral_data)

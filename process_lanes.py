@@ -20,10 +20,10 @@ with open('data/dota_pvp_prefab.vmap.txt', 'r') as f:
             dump_on_next_brace = True
         if '}' in line and dump_on_next_brace:
             dump_on_next_brace = False
-            print classname, target, origin, targetname
+            # print (classname, target, origin, targetname)
             lane_data[targetname] = {
                 'target': target,
                 'origin': origin
             }
-print lane_data
+print (lane_data)
 

@@ -32,7 +32,11 @@ with open('data/dota_pvp_prefab.vmap.txt', 'r') as f:
 spawner_data = {}
 with open('data/dota_pvp_prefab.vmap.txt', 'r') as f:
     dump_on_next_brace = False
+    ent_type_found = False
+
     for line in f.readlines():
+        if '"CMapEntity"' in line:
+            origin = [0,0]
         if '"origin"' in line:
             origin = [x.replace('"', '') for x in line.strip('\n').split(" ")[-3:]]
         if '"classname"' in line:
@@ -42,6 +46,8 @@ with open('data/dota_pvp_prefab.vmap.txt', 'r') as f:
         if 'NPCFirstWaypoint' in line:
             NPCFirstWaypoint = line.strip('\n').split(" ")[-1].replace('"', '')
         if 'npc_dota_spawner_' in line and '_staging' not in line:
+            ent_type_found = True
+        if ent_type_found and origin[0] and origin[1]:
             dump_on_next_brace = True
         if '}' in line and dump_on_next_brace:
             dump_on_next_brace = False
@@ -51,6 +57,8 @@ with open('data/dota_pvp_prefab.vmap.txt', 'r') as f:
                 'origin': origin,
                 'targetname': targetname
             }
+            origin = [0,0]
+            ent_type_found = False
 ##print spawner_data
 
 for key in spawner_data:
