@@ -9,7 +9,7 @@ def all_int(l):
     except:
         return False
 
-with open('data/723_data.log', 'r') as f:
+with open('data/733_data.log', 'r') as f:
     lines = f.readlines()
     started = False
     next_filename = False
@@ -49,16 +49,19 @@ with open('data/723_data.log', 'r') as f:
             line_level = (len(line) - len(line.lstrip())) / 2
             k, v = [x.strip() for x in line.split(':')]
 ##            print(line_level, k, v)
-            while level > line_level:
+            while level > line_level or (line_level == level and not len(curr_tbl)):
 ##                print(all_int(curr_tbl.keys()))
+                # if not len(stack):
+                #     print(stack)
                 tbl, key = stack.pop()
                 if all_int(curr_tbl.keys()):
                     tbl[key] = list(curr_tbl.values())
-##                    print(tbl[key])
+##                      print(tbl[key])
                 curr_tbl = tbl
                 level -= 1
             if v == '':
-##                print ('New', k.isdigit())
+                # if not k.isdigit():
+                #     print ('New', k)
                 curr_tbl[k] = {}
                 stack.append((curr_tbl, k))
                 curr_tbl = curr_tbl[k]
