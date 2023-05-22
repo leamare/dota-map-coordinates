@@ -70,12 +70,19 @@ def generate_ent_fow_blocker_node_image(files, dst):
     data = []
     def process_file(src):
         with open(src, 'r') as f:
+            append = False
             for line in f.readlines():
                 # assumes origin line appears before ent_fow_blocker_node line
+                if '"elementid"' in line:
+                    append = False
+                    origin_line = 0
                 if '"origin"' in line:
                     origin_line = [int(round(float(x))) for x in line.split('" "')[2].strip('\r\n').replace('"', '').split(" ")][:2]
                 if "ent_fow_blocker_node" in line:
+                    append = True
+                if append and origin_line:
                     data.append(origin_line)
+                    append = False
 
     for f in files:
         process_file(f)
@@ -348,7 +355,11 @@ def generate_tools_no_wards_image_from_tile_data(parser_src, prefab_src, dst, im
 
     data = []
     for mesh_obj in mesh_objs:
-        mesh_obj.load_parent_map_tile('data/dire_basic.vmap.txt')
+        if prefab_src == 'data/radiant_basic_tools_no_wards.txt':
+            mesh_obj.load_parent_map_tile('data/radiant_basic.vmap.txt')
+        else:
+            mesh_obj.load_parent_map_tile('data/dire_basic.vmap.txt')
+        # mesh_obj.load_parent_map_tile('data/dire_basic.vmap.txt')
         cells = mesh_obj.parent_map_tile.get_cells_for_node_id()
         for cell in cells:
             points = []
@@ -420,8 +431,10 @@ im = generate_tools_no_wards_image("data/tools_no_wards.json", "img/tools_no_war
 # add tools_no_wards from tiles to image
 print('parsing dire_basic prefab')
 parse_tools_no_wards_prefab("data/dire_basic.vmap.txt", "data/dire_basic_tools_no_wards.txt")
+parse_tools_no_wards_prefab("data/radiant_basic.vmap.txt", "data/radiant_basic_tools_no_wards.txt")
 print('adding tile data to tools_no_wards image')
-generate_tools_no_wards_image_from_tile_data("keyvalues2.js", "data/dire_basic_tools_no_wards.txt", "img/tools_no_wards.png", im)
+# generate_tools_no_wards_image_from_tile_data("keyvalues2.js", "data/dire_basic_tools_no_wards.txt", "img/tools_no_wards.png", im)
+# generate_tools_no_wards_image_from_tile_data("keyvalues2.js", "data/radiant_basic_tools_no_wards.txt", "img/tools_no_wards.png", im)
 print('stitching final image')
 stitch_images(["img/elevation.png", "img/tree_elevation.png", "img/gridnav.png", "img/ent_fow_blocker_node.png", "img/tools_no_wards.png"], "img/map_data.png")
 print('done')
