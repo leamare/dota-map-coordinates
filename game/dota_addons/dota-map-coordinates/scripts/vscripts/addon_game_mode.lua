@@ -50,7 +50,7 @@ function DumpCoordinateData(keys, schema, out)
         local entities = Entities:FindAllByClassname(v)
         if v == "trigger_multiple" then
             for k, ent in pairs(entities) do
-                if string.find(ent:GetName(), "neutralcamp") ~= nil then
+                if string.find(ent:GetName(), "neutralcamp") ~= nil or string.find(ent:GetName(), "_aura") ~= nil then
                     local a1 = ent:GetOrigin() + ent:GetBounds().Mins
                     local a2 = ent:GetOrigin() + ent:GetBounds().Maxs
                     local b1 = Vector(a1.x, a1.y)
@@ -161,6 +161,7 @@ function GenerateMapData(out)
             "npc_dota_roshan_spawner",
             "dota_item_rune_spawner_powerup",
             "dota_item_rune_spawner_bounty",
+            "dota_item_rune_spawner_xp",
             "ent_dota_fountain",
             "ent_dota_shop",
             "ent_dota_tree",
@@ -169,7 +170,11 @@ function GenerateMapData(out)
             "npc_dota_fort",
             "npc_dota_tower",
             "npc_dota_neutral_spawner",
-            "npc_dota_watch_tower"
+            "npc_dota_watch_tower",
+            "npc_dota_lantern",
+            "npc_dota_unit_twin_gate",
+            "npc_dota_mango_tree",
+            "npc_dota_miniboss_spawner"
         },
         {
             dota_item_rune_spawner_powerup = "dota_item_rune_spawner",
@@ -232,14 +237,14 @@ function WorldXYtoXY(worldXYVector)
 end
 
 function InitWorldData()
-    --[[worldMaxX = GetWorldMaxX()
-    worldMaxY = GetWorldMaxY()
-    worldMinX = GetWorldMinX()
-    worldMinY = GetWorldMinY()]]
-    worldMaxX = 8288
-    worldMaxY = 8288
-    worldMinX = -8288
-    worldMinY = -8288
+    -- worldMaxX = GetWorldMaxX()
+    -- worldMaxY = GetWorldMaxY()
+    -- worldMinX = GetWorldMinX()
+    -- worldMinY = GetWorldMinY()
+    worldMaxX = 10432 - 32
+    worldMaxY = 10432 - 32
+    worldMinX = -10432 - 32
+    worldMinY = -10432 - 32
     local a = 1
     local b = 1
     for i = worldMinX , worldMaxX, gridSize do
@@ -643,17 +648,17 @@ function GameMode:OnGameRulesStateChange()
         
     
         InitWorldData()
-        --[[world_data = {
-            worldMaxX = GetWorldMaxX(),
-            worldMaxY = GetWorldMaxY(),
-            worldMinX = GetWorldMinX(),
-            worldMinY = GetWorldMinY()
-        }]]
+        -- world_data = {
+        --     worldMaxX = GetWorldMaxX(),
+        --     worldMaxY = GetWorldMaxY(),
+        --     worldMinX = GetWorldMinX(),
+        --     worldMinY = GetWorldMinY()
+        -- }
         world_data = {
-            worldMaxX = 8288,
-            worldMaxY = 8288,
-            worldMinX = -8288,
-            worldMinY = -8288
+            worldMaxX = 10432 - 32,
+            worldMaxY = 10432 - 32,
+            worldMinX = -10432 - 32,
+            worldMinY = -10432 - 32
         }
         print("[start]")
         print("worlddata.json")
