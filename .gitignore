@@ -11,6 +11,17 @@
 *.vjs_c
 *.vxml_c
 *.vcss_c
+*.dmx
+*.vmdl
+*.vphys
+*.vents
+*.vmesh
+*.vgrass
+*.vrman
+*.vwnod
+*.vwrld
+*showcase*.vmap
+hero*.vmap
 
 # Commit panorama compiled textures
 !game/dota_addons/sandbox/panorama/images/*.vtex_c
@@ -29,3 +40,6 @@ node_modules/
 *.pyc
 *.vmap.txt
 data/dire_basic_tools_no_wards.txt
+
+# editors
+.vscode/
