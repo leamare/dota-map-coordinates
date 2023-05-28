@@ -39,7 +39,9 @@ game/dota_addons/sandbox/resource/overviews/*
 node_modules/
 *.pyc
 *.vmap.txt
+data/map_data.log
 data/dire_basic_tools_no_wards.txt
+data/radiant_basic_tools_no_wards.txt
 
 # editors
 .vscode/
