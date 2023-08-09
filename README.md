@@ -16,7 +16,7 @@ Launch the custom game in Workshop Tools (Right click the Dota 2 Icon and Choose
 
 ![docs_guide1.png](docs_guide1.png?raw=true)
 
-Open your console, enter `dota_lauch_custom_game dota-map-coordinates dota`, and wait for the to game start. Select a hero and enter the game.
+Open your console, enter `dota_launch_custom_game dota-map-coordinates dota`, and wait for the to game start. Select a hero and enter the game.
 
 Switch your console to VScript mode.
 
