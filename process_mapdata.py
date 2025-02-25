@@ -98,11 +98,11 @@ with open('data/mapdata.json', 'r') as f:
                 dump_on_next_brace = True
             if '}' in line and dump_on_next_brace:
                 data['npc_dota_roshan_spawner'].append({
-                    'x': int(origin[0]),
-                    'y': int(origin[1]),
+                    'x': round(float(origin[0]), 2), 
+                    'y': round(float(origin[1]), 2),
                     'bounds': [
-                        int(origin[0]),
-                        int(origin[1])
+                        round(float(origin[0]), 2), 
+                        round(float(origin[1]), 2), 
                     ],
                     'team': 0
                 })

@@ -47,6 +47,11 @@ with open('data/map_data.log', 'r') as f:
                 g.write(json.dumps(data, separators=(',', ':')))
         elif started:
             line_level = (len(line) - len(line.lstrip())) / 2
+            if line.strip() == '':
+                continue
+            lineelems = [x.strip() for x in line.split(':')]
+            if len(lineelems) <= 1:
+                continue
             k, v = [x.strip() for x in line.split(':')]
 ##            print(line_level, k, v)
             while level > line_level or (line_level == level and not len(curr_tbl)):
