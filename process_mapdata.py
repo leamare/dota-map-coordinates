@@ -82,6 +82,10 @@ with open('data/mapdata.json', 'r') as f:
         dump_on_next_brace = False
         ent_type_found = False
         class_infoplayer = False
+        ent_found_type = ''
+
+        # overriding miniboss spawner to avoid conflicts with prefab locations
+        data['npc_dota_miniboss_spawner'] = []
 
         for line in f.readlines():
             if 'CMapEntity' in line:
@@ -92,12 +96,16 @@ with open('data/mapdata.json', 'r') as f:
                 class_infoplayer = True
             if 'roshan_location_2' in line and class_infoplayer:
                 ent_type_found = True
+                ent_found_type = 'npc_dota_roshan_spawner'
+            if 'miniboss_location' in line and class_infoplayer:
+                ent_type_found = True
+                ent_found_type = 'npc_dota_miniboss_spawner'
             if '"origin"' in line:
                 origin = [x.replace('"', '') for x in line.strip('\n').split(" ")[-3:]]
             if ent_type_found and origin[0] and origin[1]:
                 dump_on_next_brace = True
-            if '}' in line and dump_on_next_brace:
-                data['npc_dota_roshan_spawner'].append({
+            if '}' in line and dump_on_next_brace and ent_found_type:
+                data[ent_found_type].append({
                     'x': round(float(origin[0]), 2), 
                     'y': round(float(origin[1]), 2),
                     'bounds': [
@@ -106,7 +114,10 @@ with open('data/mapdata.json', 'r') as f:
                     ],
                     'team': 0
                 })
-                break
+                dump_on_next_brace = False
+                class_infoplayer = False
+                ent_type_found = False
+                ent_found_type = ''
 
     for pt in data['npc_dota_neutral_spawner']:
         point = [pt['x'], pt['y']]

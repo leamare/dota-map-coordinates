@@ -174,7 +174,9 @@ function GenerateMapData(out)
             "npc_dota_lantern",
             "npc_dota_unit_twin_gate",
             "npc_dota_mango_tree",
-            "npc_dota_miniboss_spawner"
+            "npc_dota_miniboss_spawner",
+            "npc_dota_xp_fountain",
+            "npc_dota_lotus_pool"
         },
         {
             dota_item_rune_spawner_powerup = "dota_item_rune_spawner",
@@ -191,8 +193,7 @@ function DestroyBuildings()
         "npc_dota_healer",
         "npc_dota_barracks",
         "npc_dota_filler",
-        "npc_dota_effigy_statue",
-        "npc_dota_tower"
+        "npc_dota_effigy_statue"
     }
     for k, v in pairs(keys) do
         local entities = Entities:FindAllByClassname(v)

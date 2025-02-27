@@ -1,6 +1,8 @@
 # Cache crap that Valve autogenerates
 *.bin
 *.cfg
+*.soc
+*.tmp
 
 # Compiled formats
 *.vpcf_c
@@ -22,6 +24,8 @@
 *.vwrld
 *showcase*.vmap
 hero*.vmap
+*.vmap
+*.vpk
 
 # Commit panorama compiled textures
 !game/dota_addons/sandbox/panorama/images/*.vtex_c
@@ -32,7 +36,7 @@ content/dota_addons/sandbox/materials/overviews/*.vmat
 content/dota_addons/sandbox/materials/overviews/*.txt
 game/dota_addons/sandbox/resource/overviews/*
 
-#Github dump
+# Github dump
 *.stackdump
 
 # maps/
