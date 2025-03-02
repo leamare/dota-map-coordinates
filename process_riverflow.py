@@ -73,16 +73,17 @@ for path_index, path in enumerate(map_paths):
         length = math.sqrt(dx*dx + dy*dy)
         if length == 0:
             continue
-            
-        # Normalize and scale by radius
-        radius = float(path[i]['radius_scale'][0])
-        perpx = (-dy/length) * radius
-        perpy = (dx/length) * radius
         
         if i == 0:
+            radius = float(path[i]['radius_scale'][0])
+            perpx = (-dy/length) * radius
+            perpy = (dx/length) * radius
             polygon_left.append([p1[0] + perpx, p1[1] + perpy])
             polygon_right.append([p1[0] - perpx, p1[1] - perpy])
             
+        radius = float(path[i+1]['radius_scale'][0])
+        perpx = (-dy/length) * radius
+        perpy = (dx/length) * radius
         polygon_left.append([p2[0] + perpx, p2[1] + perpy])
         polygon_right.append([p2[0] - perpx, p2[1] - perpy])
         
