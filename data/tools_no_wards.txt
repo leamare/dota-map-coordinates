@@ -1,13 +1,13 @@
 "CMapEntity"
 {
-	"id" "elementid" "60e61349-62eb-41bb-8946-c0c49d5efb07"
+	"id" "elementid" "e79d2df1-dc49-493d-8f43-ac5eb29389e5"
 	"nodeID" "int" "25701"
 	"referenceID" "uint64" "0xe0a6abb952b6b7f3"
 	"children" "element_array" 
 	[
 		"CMapMesh"
 		{
-			"id" "elementid" "2dcb2d71-436b-4c7b-96c5-cb7afae18a0e"
+			"id" "elementid" "01a90403-d474-4e1f-a3bc-4c19152fbb52"
 			"nodeID" "int" "25702"
 			"referenceID" "uint64" "0xab5c472a8c8881e5"
 			"children" "element_array" 
@@ -21,7 +21,7 @@
 			]
 			"meshData" "CDmePolygonMesh"
 			{
-				"id" "elementid" "039a8ef1-048b-42ff-a278-b3c86acb2149"
+				"id" "elementid" "f4ff3333-869b-4751-b619-3512ed39f49e"
 				"name" "string" "meshData"
 				"vertexEdgeIndices" "int_array" 
 				[
@@ -231,13 +231,13 @@
 				]
 				"vertexData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "52e9a169-4858-4cc9-ae88-80f1d759ec31"
+					"id" "elementid" "df5561ac-3e1a-4b23-8b94-56ae6bdf268e"
 					"size" "int" "8"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "ece0a586-f49f-49c8-a813-765ebd84a88e"
+							"id" "elementid" "a7272899-eb6e-43ee-9f26-10d155431ace"
 							"name" "string" "position:0"
 							"standardAttributeName" "string" "position"
 							"semanticName" "string" "position"
@@ -262,13 +262,13 @@
 
 				"faceVertexData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "1a66adba-0e77-4e8a-9813-080fe428eab2"
+					"id" "elementid" "141d97c6-c1fc-4ac7-bcb6-a6aeabd43d05"
 					"size" "int" "24"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "4bd4a874-6ef9-42a9-abd7-23097d85c637"
+							"id" "elementid" "5b497e83-8c57-4687-b287-efa633ac402c"
 							"name" "string" "texcoord:0"
 							"standardAttributeName" "string" "texcoord"
 							"semanticName" "string" "texcoord"
@@ -299,14 +299,14 @@
 								"-51.5 -3.3117370605",
 								"62.5 52.5",
 								"52.5 -1.28049016",
-								"-61.5 67",
+								"-61.4999961853 67",
 								"66.9999923706 -3.3117370605",
-								"-61.5 52.5000038147"
+								"-61.4999961853 52.5000038147"
 							]
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "cda9b93f-ef5c-4e35-923e-be6a79690d6e"
+							"id" "elementid" "2fe17f1a-0665-407e-a27a-46c0bf5c1d6d"
 							"name" "string" "normal:0"
 							"standardAttributeName" "string" "normal"
 							"semanticName" "string" "normal"
@@ -344,7 +344,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "fdf93b9b-1c57-4325-9f51-59bd8ff7f42f"
+							"id" "elementid" "acbea5ed-6ecb-4e23-ad13-70f6a050226f"
 							"name" "string" "tangent:0"
 							"standardAttributeName" "string" "tangent"
 							"semanticName" "string" "tangent"
@@ -385,13 +385,13 @@
 
 				"edgeData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "892ea090-34f2-4998-8266-93d36120ee9d"
+					"id" "elementid" "2b85ec07-0ee6-46ed-bd59-8f06dfbe3fb0"
 					"size" "int" "12"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "d4a5df65-a9dd-4750-95ba-04b159564831"
+							"id" "elementid" "ff198318-08fc-49a2-bb8e-644257828d29"
 							"name" "string" "flags:0"
 							"standardAttributeName" "string" "flags"
 							"semanticName" "string" "flags"
@@ -420,13 +420,13 @@
 
 				"faceData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "362c8f58-2670-4aa4-a332-ec449ef6269e"
+					"id" "elementid" "7102cf02-a01c-46b9-9a08-b09b3ba50570"
 					"size" "int" "6"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "8bf85f2f-f5ff-4cca-a309-b800d4f53cf9"
+							"id" "elementid" "a6c3a8d1-d35c-44aa-8b24-34c8cb3a5f63"
 							"name" "string" "textureScale:0"
 							"standardAttributeName" "string" "textureScale"
 							"semanticName" "string" "textureScale"
@@ -436,7 +436,7 @@
 							"subdivisionBinding" "element" ""
 							"data" "vector2_array" 
 							[
-								"0.4354836643 0.4245691597",
+								"0.4354838729 0.4245690107",
 								"0.4354836643 0.4245689511",
 								"0.4245692194 0.5000002384",
 								"0.4245691001 0.5000001192",
@@ -446,7 +446,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "67f9e09d-cc79-420c-8df5-3f83961b09ee"
+							"id" "elementid" "22422679-359b-4666-bc77-b0abd943021b"
 							"name" "string" "textureAxisU:0"
 							"standardAttributeName" "string" "textureAxisU"
 							"semanticName" "string" "textureAxisU"
@@ -456,7 +456,7 @@
 							"subdivisionBinding" "element" ""
 							"data" "vector4_array" 
 							[
-								"0.9999999404 0 0 47.4140625",
+								"1 0 0 47.408203125",
 								"-0.9999999404 -0 0.0000000288 208.5859375",
 								"0 -1 0 24.048828125",
 								"0 1 0 231.955078125",
@@ -466,7 +466,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "7af7800d-bcc6-4ebe-9b16-a187bd819ca2"
+							"id" "elementid" "6f34934d-feb8-416f-adda-c055145d28e0"
 							"name" "string" "textureAxisV:0"
 							"standardAttributeName" "string" "textureAxisV"
 							"semanticName" "string" "textureAxisV"
@@ -476,7 +476,7 @@
 							"subdivisionBinding" "element" ""
 							"data" "vector4_array" 
 							[
-								"0 -0.9999999404 0 24.048828125",
+								"0 -1 0 24.04296875",
 								"-0 -1 -0.0000000194 24.0400390625",
 								"0 0 -1 244.1999511719",
 								"0 0 -1 244.2001953125",
@@ -486,7 +486,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "bba036cd-c547-4579-a436-75e3fd0a5fb1"
+							"id" "elementid" "734b5e6b-334d-40f8-9816-e876f9e7dbd2"
 							"name" "string" "materialindex:0"
 							"standardAttributeName" "string" "materialindex"
 							"semanticName" "string" "materialindex"
@@ -506,7 +506,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "ec3aa8a5-c314-4c96-a0c7-aaac05f4b0a2"
+							"id" "elementid" "d330721b-1d3b-4b51-99a3-f8a3ad5d0b9d"
 							"name" "string" "flags:0"
 							"standardAttributeName" "string" "flags"
 							"semanticName" "string" "flags"
@@ -526,7 +526,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "428f2f53-5822-4d56-abb7-5f3d8ca534d0"
+							"id" "elementid" "f111fd0d-c526-41c5-aedb-830b1f9b77e6"
 							"name" "string" "lightmapScaleBias:0"
 							"standardAttributeName" "string" "lightmapScaleBias"
 							"semanticName" "string" "lightmapScaleBias"
@@ -549,7 +549,7 @@
 
 				"subdivisionData" "CDmePolygonMeshSubdivisionData"
 				{
-					"id" "elementid" "d556ab9f-08ca-42e0-bbe6-a36469b69137"
+					"id" "elementid" "aa35c0d0-47ba-4abb-80af-259f6cc6061f"
 					"subdivisionLevels" "int_array" 
 					[
 						"0",
@@ -584,17 +584,24 @@
 
 			}
 
-			"lightGroup" "string" ""
-			"precomputelightprobes" "bool" "1"
-			"useAsOccluder" "bool" "0"
-			"bakelightoutput" "int" "-1"
 			"excludefromimpostors" "bool" "0"
+			"bakelightoutput" "int" "-1"
+			"useAsOccluder" "bool" "0"
+			"precomputelightprobes" "bool" "1"
+			"lightGroup" "string" ""
+			"physicsIncludedDetailLayers" "element_array" 
+			[
+			]
+			"physicsMissingDetailLayers" "element_array" 
+			[
+			]
 			"origin" "vector3" "-7406.4516601562 -6484 416.0026855469"
 			"angles" "qangle" "0 0 0"
 			"scales" "vector3" "1 1 1"
 			"transformLocked" "bool" "0"
 			"force_hidden" "bool" "0"
 			"editorOnly" "bool" "0"
+			"customVisGroup" "string" ""
 			"randomSeed" "int" "309680499"
 			"disableShadows" "int" "0"
 			"bakelighting" "bool" "1"
@@ -624,7 +631,7 @@
 		},
 		"CMapMesh"
 		{
-			"id" "elementid" "d2b35f01-dfd5-4e70-9b46-c385e98d7725"
+			"id" "elementid" "5cd824cc-9dd9-4700-a237-03add90f7455"
 			"nodeID" "int" "25703"
 			"referenceID" "uint64" "0x14b617c0fbc2745e"
 			"children" "element_array" 
@@ -638,7 +645,7 @@
 			]
 			"meshData" "CDmePolygonMesh"
 			{
-				"id" "elementid" "4c120821-bd18-4079-b341-c3de102ad932"
+				"id" "elementid" "3cac2728-26ad-4276-b604-4682c185b516"
 				"name" "string" "meshData"
 				"vertexEdgeIndices" "int_array" 
 				[
@@ -848,13 +855,13 @@
 				]
 				"vertexData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "4372fa44-d597-4301-a952-850891e7da8a"
+					"id" "elementid" "1771bacc-33a6-4fd4-acdc-785a2738290a"
 					"size" "int" "8"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "6e3cebad-3658-4369-bbf1-35e884a96899"
+							"id" "elementid" "7dae0bdc-8b87-4aa5-b828-db8cde352dd5"
 							"name" "string" "position:0"
 							"standardAttributeName" "string" "position"
 							"semanticName" "string" "position"
@@ -879,13 +886,13 @@
 
 				"faceVertexData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "24d456dd-ac39-4150-8301-54d74a8ec6f1"
+					"id" "elementid" "2b73b450-4f6d-4434-8907-7bb965b3a6c1"
 					"size" "int" "24"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "3ccba271-a366-4e49-97d7-fb492789838f"
+							"id" "elementid" "7855c5f3-8444-403f-a395-85e5639999a2"
 							"name" "string" "texcoord:0"
 							"standardAttributeName" "string" "texcoord"
 							"semanticName" "string" "texcoord"
@@ -923,7 +930,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "e09a7fbd-f1f0-4814-ae7d-ae4214e1b382"
+							"id" "elementid" "2406e185-1be0-4ba7-a182-59948a34ad2e"
 							"name" "string" "normal:0"
 							"standardAttributeName" "string" "normal"
 							"semanticName" "string" "normal"
@@ -961,7 +968,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "2bc0c6cf-451d-46c6-aa28-e6d0cdfa771d"
+							"id" "elementid" "b73bab5e-eb2d-4294-81a6-8e40553008f8"
 							"name" "string" "tangent:0"
 							"standardAttributeName" "string" "tangent"
 							"semanticName" "string" "tangent"
@@ -1002,13 +1009,13 @@
 
 				"edgeData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "0f027369-a46f-49fa-bd41-5ca1d71d3f21"
+					"id" "elementid" "62f4ef63-13c7-4a68-a85c-46b9d9861509"
 					"size" "int" "12"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "86c6c1d5-9e5a-42a4-9dd2-a8f34546f5a4"
+							"id" "elementid" "fad68bb7-a77b-4a99-99ea-54658b37075f"
 							"name" "string" "flags:0"
 							"standardAttributeName" "string" "flags"
 							"semanticName" "string" "flags"
@@ -1037,13 +1044,13 @@
 
 				"faceData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "73b9d562-16ee-4bc1-8d4d-60afe5a7acfa"
+					"id" "elementid" "3ec2989a-cd27-4784-ab94-11cc78afff27"
 					"size" "int" "6"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "14d8e436-f207-47b5-8f9f-fb3c157888bd"
+							"id" "elementid" "c0ea6292-105f-4a8d-8c56-e86bae30b0a5"
 							"name" "string" "textureScale:0"
 							"standardAttributeName" "string" "textureScale"
 							"semanticName" "string" "textureScale"
@@ -1063,7 +1070,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "26afea8d-3e68-4bf1-9d3e-76396983a15f"
+							"id" "elementid" "79ddeab4-2e0d-4e43-ad3d-74998d755511"
 							"name" "string" "textureAxisU:0"
 							"standardAttributeName" "string" "textureAxisU"
 							"semanticName" "string" "textureAxisU"
@@ -1083,7 +1090,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "0886113f-d8db-4989-b117-e76361173071"
+							"id" "elementid" "07cf6ca8-9188-4a2d-9609-27e20914982a"
 							"name" "string" "textureAxisV:0"
 							"standardAttributeName" "string" "textureAxisV"
 							"semanticName" "string" "textureAxisV"
@@ -1103,7 +1110,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "be20f197-2ea2-45a0-8ee4-120e3f23f4e2"
+							"id" "elementid" "8fb5b7db-0b4a-4d9c-a7a9-89674ff95cfd"
 							"name" "string" "materialindex:0"
 							"standardAttributeName" "string" "materialindex"
 							"semanticName" "string" "materialindex"
@@ -1123,7 +1130,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "fc4acf0e-328a-454e-ab31-ece4f6c769b2"
+							"id" "elementid" "c7913565-a2ca-488f-9fa0-71dfb88b6f10"
 							"name" "string" "flags:0"
 							"standardAttributeName" "string" "flags"
 							"semanticName" "string" "flags"
@@ -1143,7 +1150,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "7c5e5db3-6471-44f8-be02-8c42baffee47"
+							"id" "elementid" "993b016e-8f27-47fe-8785-5e5cbc4c704d"
 							"name" "string" "lightmapScaleBias:0"
 							"standardAttributeName" "string" "lightmapScaleBias"
 							"semanticName" "string" "lightmapScaleBias"
@@ -1166,7 +1173,7 @@
 
 				"subdivisionData" "CDmePolygonMeshSubdivisionData"
 				{
-					"id" "elementid" "99210a91-a011-4591-a67c-e5614d006997"
+					"id" "elementid" "7ad8dd17-bf7e-497c-b986-36b80711f4f1"
 					"subdivisionLevels" "int_array" 
 					[
 						"0",
@@ -1201,17 +1208,24 @@
 
 			}
 
-			"lightGroup" "string" ""
-			"precomputelightprobes" "bool" "1"
-			"useAsOccluder" "bool" "0"
-			"bakelightoutput" "int" "-1"
 			"excludefromimpostors" "bool" "0"
+			"bakelightoutput" "int" "-1"
+			"useAsOccluder" "bool" "0"
+			"precomputelightprobes" "bool" "1"
+			"lightGroup" "string" ""
+			"physicsIncludedDetailLayers" "element_array" 
+			[
+			]
+			"physicsMissingDetailLayers" "element_array" 
+			[
+			]
 			"origin" "vector3" "-6542.4516601562 -6484 416.0026855469"
 			"angles" "qangle" "0 0 0"
 			"scales" "vector3" "1 1 1"
 			"transformLocked" "bool" "0"
 			"force_hidden" "bool" "0"
 			"editorOnly" "bool" "0"
+			"customVisGroup" "string" ""
 			"randomSeed" "int" "390223874"
 			"disableShadows" "int" "0"
 			"bakelighting" "bool" "1"
@@ -1248,7 +1262,7 @@
 	]
 	"relayPlugData" "DmePlugList"
 	{
-		"id" "elementid" "7bf637a9-72a8-489c-82ed-9c7f9e48f656"
+		"id" "elementid" "719ed117-47aa-4085-9a27-a7489544447b"
 		"names" "string_array" 
 		[
 		]
@@ -1268,21 +1282,21 @@
 	]
 	"entity_properties" "EditGameClassProps"
 	{
-		"id" "elementid" "62d2de8b-df7e-4b4f-9de0-633d55fb833f"
+		"id" "elementid" "09d7745c-d77b-48b4-8adf-860e2888d8a6"
 		"classname" "string" "trigger_no_wards"
-		"targetname" "string" ""
-		"source1_brushmodel_index" "string" "40"
-		"filtername" "string" ""
-		"spawnflags" "string" "4097"
-		"globalname" "string" ""
-		"StartDisabled" "string" "0"
-		"useLocalOffset" "string" "0"
-		"local.angles" "string" ""
-		"local.origin" "string" ""
-		"parentAttachmentName" "string" ""
-		"parentname" "string" ""
-		"vscripts" "string" ""
 		"local.scales" "string" ""
+		"vscripts" "string" ""
+		"parentname" "string" ""
+		"parentAttachmentName" "string" ""
+		"local.origin" "string" ""
+		"local.angles" "string" ""
+		"useLocalOffset" "string" "0"
+		"StartDisabled" "string" "0"
+		"globalname" "string" ""
+		"spawnflags" "string" "4097"
+		"filtername" "string" ""
+		"source1_brushmodel_index" "string" "40"
+		"targetname" "string" ""
 	}
 
 	"hitNormal" "vector3" "0 0 1"
@@ -1293,18 +1307,19 @@
 	"transformLocked" "bool" "0"
 	"force_hidden" "bool" "0"
 	"editorOnly" "bool" "0"
+	"customVisGroup" "string" ""
 	"randomSeed" "int" "1303383868"
 }
 "CMapEntity"
 {
-	"id" "elementid" "758b9fc3-b657-4316-8170-a7a6fe1ccc42"
+	"id" "elementid" "6bb3b870-3c39-4e95-81c0-098842855d8e"
 	"nodeID" "int" "25707"
 	"referenceID" "uint64" "0xa41a60003e4e172"
 	"children" "element_array" 
 	[
 		"CMapMesh"
 		{
-			"id" "elementid" "6a981a35-d069-4c59-94ad-54b04f9bab35"
+			"id" "elementid" "49c87d47-06e7-46f8-a21b-c7f27f31da47"
 			"nodeID" "int" "25708"
 			"referenceID" "uint64" "0x21bc5bb664c3b953"
 			"children" "element_array" 
@@ -1318,7 +1333,7 @@
 			]
 			"meshData" "CDmePolygonMesh"
 			{
-				"id" "elementid" "4f5cc075-5fc9-4229-a448-6a875ed06f89"
+				"id" "elementid" "010d60ed-c23b-4c81-bd37-87ff9d0790c2"
 				"name" "string" "meshData"
 				"vertexEdgeIndices" "int_array" 
 				[
@@ -1528,13 +1543,13 @@
 				]
 				"vertexData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "ee9bef08-a8e6-404b-8b2f-1855d694d3d0"
+					"id" "elementid" "88ff2247-c2c5-4c0c-b91f-3eb5a18b974b"
 					"size" "int" "8"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "dd1d8bf5-fb26-4178-8339-9a2251f00c59"
+							"id" "elementid" "5c803522-4b3f-41f9-8965-0d2c583188c2"
 							"name" "string" "position:0"
 							"standardAttributeName" "string" "position"
 							"semanticName" "string" "position"
@@ -1559,13 +1574,13 @@
 
 				"faceVertexData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "e86d032e-7551-44f3-93fe-48f12b0c0441"
+					"id" "elementid" "2ed7f1af-5a13-4e15-b46c-31520fab3dc6"
 					"size" "int" "24"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "4d7576a1-caa0-4418-b70e-90048118284a"
+							"id" "elementid" "c82a639f-5a7f-4b44-8a99-d6ded5312003"
 							"name" "string" "texcoord:0"
 							"standardAttributeName" "string" "texcoord"
 							"semanticName" "string" "texcoord"
@@ -1603,7 +1618,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "3b02a869-f436-4ef8-b291-e52b8ed07db8"
+							"id" "elementid" "82b1ea0c-7acb-4f46-b4f2-a26ae61f49f8"
 							"name" "string" "normal:0"
 							"standardAttributeName" "string" "normal"
 							"semanticName" "string" "normal"
@@ -1641,7 +1656,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "ec792edd-df54-4999-ba1b-b1902101c650"
+							"id" "elementid" "4a09ec2a-9d70-4c6c-a14c-a0e4d1e14f64"
 							"name" "string" "tangent:0"
 							"standardAttributeName" "string" "tangent"
 							"semanticName" "string" "tangent"
@@ -1682,13 +1697,13 @@
 
 				"edgeData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "777d1184-df6e-4112-a37f-001725ac5ad3"
+					"id" "elementid" "f1e19596-934a-4bf5-bdee-d11900074641"
 					"size" "int" "12"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "7e5d58e2-5b1c-4e0f-8497-4fc5f634975a"
+							"id" "elementid" "4d8e650d-dd2e-4bd7-9341-f6cb8669cae0"
 							"name" "string" "flags:0"
 							"standardAttributeName" "string" "flags"
 							"semanticName" "string" "flags"
@@ -1717,13 +1732,13 @@
 
 				"faceData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "25a3f98a-4e6c-4f78-b86c-365b4920d93b"
+					"id" "elementid" "1bc31c06-26fa-4f93-950b-973c09b68ca3"
 					"size" "int" "6"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "c3e96430-dba5-4461-9e3e-4cb4caa4e0bf"
+							"id" "elementid" "817e7f88-0519-4d7d-a24b-bdf64d958d1e"
 							"name" "string" "textureScale:0"
 							"standardAttributeName" "string" "textureScale"
 							"semanticName" "string" "textureScale"
@@ -1743,7 +1758,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "f1db7e7b-2997-4e2e-908f-903d881c4a45"
+							"id" "elementid" "49ff1705-0375-4fc8-9fbe-11fe5fba6df0"
 							"name" "string" "textureAxisU:0"
 							"standardAttributeName" "string" "textureAxisU"
 							"semanticName" "string" "textureAxisU"
@@ -1763,7 +1778,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "cfda59a3-ed64-49d9-abff-b386fe821569"
+							"id" "elementid" "e51f3b0d-89d0-4fc5-a17a-0b1a8d933d92"
 							"name" "string" "textureAxisV:0"
 							"standardAttributeName" "string" "textureAxisV"
 							"semanticName" "string" "textureAxisV"
@@ -1783,7 +1798,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "ece7badd-d9f3-4386-803f-410f5c8bd9ad"
+							"id" "elementid" "55a52d42-264c-4c94-92bc-40e74190d9a5"
 							"name" "string" "materialindex:0"
 							"standardAttributeName" "string" "materialindex"
 							"semanticName" "string" "materialindex"
@@ -1803,7 +1818,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "f4d47ba8-524e-402b-a42b-67643cbc5f04"
+							"id" "elementid" "c14d12f6-5cc8-4b5d-b8ca-01351afc9712"
 							"name" "string" "flags:0"
 							"standardAttributeName" "string" "flags"
 							"semanticName" "string" "flags"
@@ -1823,7 +1838,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "f92540ae-b2db-4d56-9415-79a988e16ecf"
+							"id" "elementid" "5629734e-a09b-40a1-96a4-bd03d3847ca5"
 							"name" "string" "lightmapScaleBias:0"
 							"standardAttributeName" "string" "lightmapScaleBias"
 							"semanticName" "string" "lightmapScaleBias"
@@ -1846,7 +1861,7 @@
 
 				"subdivisionData" "CDmePolygonMeshSubdivisionData"
 				{
-					"id" "elementid" "bbcde6cf-1a1e-4cd4-a40d-20da971e52bb"
+					"id" "elementid" "92cb6c5e-4aa6-4080-a79c-83e46597ada6"
 					"subdivisionLevels" "int_array" 
 					[
 						"0",
@@ -1881,17 +1896,24 @@
 
 			}
 
-			"lightGroup" "string" ""
-			"precomputelightprobes" "bool" "1"
-			"useAsOccluder" "bool" "0"
-			"bakelightoutput" "int" "-1"
 			"excludefromimpostors" "bool" "0"
+			"bakelightoutput" "int" "-1"
+			"useAsOccluder" "bool" "0"
+			"precomputelightprobes" "bool" "1"
+			"lightGroup" "string" ""
+			"physicsIncludedDetailLayers" "element_array" 
+			[
+			]
+			"physicsMissingDetailLayers" "element_array" 
+			[
+			]
 			"origin" "vector3" "7369.2905273438 6400 352.0026855469"
 			"angles" "qangle" "0 0 0"
 			"scales" "vector3" "1 1 1"
 			"transformLocked" "bool" "0"
 			"force_hidden" "bool" "0"
 			"editorOnly" "bool" "0"
+			"customVisGroup" "string" ""
 			"randomSeed" "int" "1196476139"
 			"disableShadows" "int" "0"
 			"bakelighting" "bool" "1"
@@ -1921,7 +1943,7 @@
 		},
 		"CMapMesh"
 		{
-			"id" "elementid" "a5931b62-fc1b-4231-ac11-004c6834c2bc"
+			"id" "elementid" "188f1efd-992d-4f71-94fd-3f415dc290fd"
 			"nodeID" "int" "25709"
 			"referenceID" "uint64" "0x2a69328628b06112"
 			"children" "element_array" 
@@ -1935,7 +1957,7 @@
 			]
 			"meshData" "CDmePolygonMesh"
 			{
-				"id" "elementid" "cb53f0bc-97f4-43c6-b277-cda5d788298b"
+				"id" "elementid" "efb147d7-a614-433e-8ee7-a093d75a73df"
 				"name" "string" "meshData"
 				"vertexEdgeIndices" "int_array" 
 				[
@@ -2145,13 +2167,13 @@
 				]
 				"vertexData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "2e45f7e9-3771-4748-8030-b3d05edbffcb"
+					"id" "elementid" "8f2e8dd7-94b4-44ea-ac0e-28151d666f91"
 					"size" "int" "8"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "2461e854-254f-4027-b46a-7c7b07454bff"
+							"id" "elementid" "81fc0fc3-c251-49cb-9558-3af439040a8c"
 							"name" "string" "position:0"
 							"standardAttributeName" "string" "position"
 							"semanticName" "string" "position"
@@ -2176,13 +2198,13 @@
 
 				"faceVertexData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "22220a1c-ba75-4bc7-949c-d3a48642f104"
+					"id" "elementid" "78656ec6-b80f-4722-a27e-2d5cdcfca0d5"
 					"size" "int" "24"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "e6752ceb-06a0-4490-a5df-9da44c141d2d"
+							"id" "elementid" "a7acd985-cd5e-42e0-a631-e1c505c98230"
 							"name" "string" "texcoord:0"
 							"standardAttributeName" "string" "texcoord"
 							"semanticName" "string" "texcoord"
@@ -2220,7 +2242,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "0055231c-42c4-4693-ab40-4a62c90c3bf3"
+							"id" "elementid" "78578a16-3c03-4d90-bb85-bbff58f18141"
 							"name" "string" "normal:0"
 							"standardAttributeName" "string" "normal"
 							"semanticName" "string" "normal"
@@ -2258,7 +2280,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "35100cbc-7c8a-478f-b847-371dd7fa8f7d"
+							"id" "elementid" "145f57e2-6ab6-41be-a282-6f7d1559ab30"
 							"name" "string" "tangent:0"
 							"standardAttributeName" "string" "tangent"
 							"semanticName" "string" "tangent"
@@ -2299,13 +2321,13 @@
 
 				"edgeData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "5ac7c0e5-a412-417b-baa9-a5a03b62b042"
+					"id" "elementid" "6eb375ed-fb6e-42e1-9f6a-305fca329eff"
 					"size" "int" "12"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "f405c9da-68c1-4857-8678-4218363c3389"
+							"id" "elementid" "4e2c4345-5f36-43cd-b2c6-c863646287e8"
 							"name" "string" "flags:0"
 							"standardAttributeName" "string" "flags"
 							"semanticName" "string" "flags"
@@ -2334,13 +2356,13 @@
 
 				"faceData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "23acf121-8d4e-477d-a1e3-4b0b08ad0ed4"
+					"id" "elementid" "0bda2933-3173-488b-9d2d-b5a163d8d540"
 					"size" "int" "6"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "6b73fc0d-6208-4cf3-91f4-7d5a02eca310"
+							"id" "elementid" "32b70b40-9a05-4535-b662-c26500864172"
 							"name" "string" "textureScale:0"
 							"standardAttributeName" "string" "textureScale"
 							"semanticName" "string" "textureScale"
@@ -2360,7 +2382,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "d14d88d9-2012-4224-b447-341116b74c70"
+							"id" "elementid" "a1b4fe80-3cb1-49cc-b73e-33301d0c1058"
 							"name" "string" "textureAxisU:0"
 							"standardAttributeName" "string" "textureAxisU"
 							"semanticName" "string" "textureAxisU"
@@ -2380,7 +2402,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "f035ddfb-1f12-428a-830f-8e728e70aa15"
+							"id" "elementid" "71134e40-e7bf-4422-ba84-83915943d859"
 							"name" "string" "textureAxisV:0"
 							"standardAttributeName" "string" "textureAxisV"
 							"semanticName" "string" "textureAxisV"
@@ -2400,7 +2422,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "1c5a1547-254b-4cf6-bc6c-e94682cb2560"
+							"id" "elementid" "15d60c29-8fae-4c4b-b6fc-c419d8955230"
 							"name" "string" "materialindex:0"
 							"standardAttributeName" "string" "materialindex"
 							"semanticName" "string" "materialindex"
@@ -2420,7 +2442,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "a29c642b-de48-49e9-8d75-0c50533881ba"
+							"id" "elementid" "9fff5276-1de6-4bbc-9f9f-140980685ed6"
 							"name" "string" "flags:0"
 							"standardAttributeName" "string" "flags"
 							"semanticName" "string" "flags"
@@ -2440,7 +2462,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "9dc3e4af-5e9d-4a87-b61d-e55039655274"
+							"id" "elementid" "c4474e3e-e54c-4685-9b7b-64ad2833cd9f"
 							"name" "string" "lightmapScaleBias:0"
 							"standardAttributeName" "string" "lightmapScaleBias"
 							"semanticName" "string" "lightmapScaleBias"
@@ -2463,7 +2485,7 @@
 
 				"subdivisionData" "CDmePolygonMeshSubdivisionData"
 				{
-					"id" "elementid" "0b5df908-4298-4b0b-8874-db7f1b41842e"
+					"id" "elementid" "3f57435b-52f6-4d6c-9dbd-1d6d2d70dd1b"
 					"subdivisionLevels" "int_array" 
 					[
 						"0",
@@ -2498,17 +2520,24 @@
 
 			}
 
-			"lightGroup" "string" ""
-			"precomputelightprobes" "bool" "1"
-			"useAsOccluder" "bool" "0"
-			"bakelightoutput" "int" "-1"
 			"excludefromimpostors" "bool" "0"
+			"bakelightoutput" "int" "-1"
+			"useAsOccluder" "bool" "0"
+			"precomputelightprobes" "bool" "1"
+			"lightGroup" "string" ""
+			"physicsIncludedDetailLayers" "element_array" 
+			[
+			]
+			"physicsMissingDetailLayers" "element_array" 
+			[
+			]
 			"origin" "vector3" "6569.2905273438 6400 352.0026855469"
 			"angles" "qangle" "0 0 0"
 			"scales" "vector3" "1 1 1"
 			"transformLocked" "bool" "0"
 			"force_hidden" "bool" "0"
 			"editorOnly" "bool" "0"
+			"customVisGroup" "string" ""
 			"randomSeed" "int" "1267480727"
 			"disableShadows" "int" "0"
 			"bakelighting" "bool" "1"
@@ -2545,7 +2574,7 @@
 	]
 	"relayPlugData" "DmePlugList"
 	{
-		"id" "elementid" "97dae407-5666-4728-883b-d7d08972f71f"
+		"id" "elementid" "ad7cddc7-2e64-4d27-8330-a9cb926db514"
 		"names" "string_array" 
 		[
 		]
@@ -2565,21 +2594,21 @@
 	]
 	"entity_properties" "EditGameClassProps"
 	{
-		"id" "elementid" "035d1d30-9982-46ac-9783-3384bebd2b07"
+		"id" "elementid" "9b7615f4-699f-4a9b-ae05-7fef530d1b9a"
 		"classname" "string" "trigger_no_wards"
-		"targetname" "string" ""
-		"source1_brushmodel_index" "string" "41"
-		"filtername" "string" ""
-		"spawnflags" "string" "4097"
-		"globalname" "string" ""
-		"StartDisabled" "string" "0"
-		"useLocalOffset" "string" "0"
-		"local.angles" "string" ""
-		"local.origin" "string" ""
-		"parentAttachmentName" "string" ""
-		"parentname" "string" ""
-		"vscripts" "string" ""
 		"local.scales" "string" ""
+		"vscripts" "string" ""
+		"parentname" "string" ""
+		"parentAttachmentName" "string" ""
+		"local.origin" "string" ""
+		"local.angles" "string" ""
+		"useLocalOffset" "string" "0"
+		"StartDisabled" "string" "0"
+		"globalname" "string" ""
+		"spawnflags" "string" "4097"
+		"filtername" "string" ""
+		"source1_brushmodel_index" "string" "41"
+		"targetname" "string" ""
 	}
 
 	"hitNormal" "vector3" "0 0 1"
@@ -2590,18 +2619,19 @@
 	"transformLocked" "bool" "0"
 	"force_hidden" "bool" "0"
 	"editorOnly" "bool" "0"
+	"customVisGroup" "string" ""
 	"randomSeed" "int" "4955717"
 }
 "CMapEntity"
 {
-	"id" "elementid" "42e326f5-1841-46c4-813f-5fa10841c730"
+	"id" "elementid" "86c46416-254a-446b-b9bd-60d0e1ac2c1e"
 	"nodeID" "int" "28491"
 	"referenceID" "uint64" "0x131ce98497c3cf55"
 	"children" "element_array" 
 	[
 		"CMapMesh"
 		{
-			"id" "elementid" "6bd418d9-844f-48e2-aa8d-a7f37322f031"
+			"id" "elementid" "b6808c33-e952-4366-b970-734bf6324467"
 			"nodeID" "int" "28492"
 			"referenceID" "uint64" "0xfe592bd85a7c101e"
 			"children" "element_array" 
@@ -2615,7 +2645,7 @@
 			]
 			"meshData" "CDmePolygonMesh"
 			{
-				"id" "elementid" "4a95f9be-6236-4eaa-ad0d-e8c4f4e50e9d"
+				"id" "elementid" "958f38c3-4ff2-45a3-bb74-3bc5caf8221d"
 				"name" "string" "meshData"
 				"vertexEdgeIndices" "int_array" 
 				[
@@ -2951,13 +2981,13 @@
 				]
 				"vertexData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "41b4090a-eaf6-4acc-91c2-9b105e530cbf"
+					"id" "elementid" "2bc4758f-6708-41c4-b101-aa0a4077da3a"
 					"size" "int" "14"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "e2ad8c84-72c3-4b99-9f0c-499866694d15"
+							"id" "elementid" "dd019e10-1a12-4b22-a4b7-686ab8ef1424"
 							"name" "string" "position:0"
 							"standardAttributeName" "string" "position"
 							"semanticName" "string" "position"
@@ -2988,13 +3018,13 @@
 
 				"faceVertexData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "a75dd182-919f-4b02-906a-73461ea6d562"
+					"id" "elementid" "e1ad22df-4189-4c10-857d-7caf8652569e"
 					"size" "int" "42"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "b3650f07-10ce-4db2-b782-2acf084ab478"
+							"id" "elementid" "bf3fdae3-4567-4850-8e79-53aec03bf71f"
 							"name" "string" "texcoord:0"
 							"standardAttributeName" "string" "texcoord"
 							"semanticName" "string" "texcoord"
@@ -3008,49 +3038,49 @@
 								"28.6057033539 -8.4531259537",
 								"-34.2361450195 -9.453125",
 								"25.4153270721 -9.453125",
-								"-63.1231651306 -18.4476699829",
+								"-63.1231536865 -18.4476509094",
 								"41.6927986145 -0.2499935627",
 								"-13.4350442886 -0.2499916553",
-								"35.8253097534 0.75",
-								"-54.8182983398 -4.4710121155",
+								"35.8251113892 0.75",
+								"-54.8179016113 -4.4710121155",
 								"-19.063583374 -0.2499916553",
 								"-31.1424198151 -8.4531269073",
 								"-34.2361450195 -0.2499981523",
-								"-55.5498771667 -17.222530365",
+								"-55.5494804382 -17.222530365",
 								"-19.063583374 -9.453125",
 								"-13.4350442886 -9.453125",
-								"-64.5589752197 -6.2836694717",
-								"-64.5589904785 -6.2832860947",
+								"-64.5589752197 -6.2836532593",
+								"-64.55859375 -6.2832860947",
 								"-36.5875091553 -0.2499981523",
 								"41.6927986145 -9.4531269073",
-								"-59.901309967 -19.5054664612",
+								"-59.9009132385 -19.5054664612",
 								"25.4153270721 -0.2499981523",
-								"-50.0604743958 -11.0448961258",
-								"35.8253097534 -8.4531259537",
-								"-55.5498275757 -17.2228031158",
-								"-54.8182411194 -4.4714045525",
-								"42.15234375 -8.4531259537",
-								"-67.3828811646 -14.6357593536",
+								"-50.0604515076 -11.0448770523",
+								"35.8251113892 -8.4531259537",
+								"-55.5498085022 -17.2227840424",
+								"-54.8182373047 -4.4713888168",
+								"42.1521453857 -8.4531259537",
+								"-67.382484436 -14.6357593536",
 								"19.3159790039 -0.2499981523",
-								"42.15234375 0.75",
+								"42.1521453857 0.75",
 								"19.3159790039 -9.453125",
-								"-50.0605430603 -11.0445671082",
+								"-50.0601463318 -11.0445671082",
 								"34.1822509766 0.7500008941",
-								"-59.9012832642 -19.5057220459",
+								"-59.901260376 -19.5057048798",
 								"38.4532966614 -9.4531269073",
 								"34.1822509766 -8.4531259537",
 								"38.4532966614 -0.2499935627",
-								"-67.3828811646 -14.6360626221",
+								"-67.3828735352 -14.6360454559",
 								"-26.6384754181 -8.4531269073",
 								"-31.1424198151 0.75",
-								"-63.1231880188 -18.4474010468",
+								"-63.1227912903 -18.4474010468",
 								"-26.6384754181 0.75",
 								"-36.5875091553 -9.453125"
 							]
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "8a5586e5-5477-4ae9-b6d5-a527262399c9"
+							"id" "elementid" "bb4cf47a-40f7-4e9c-8365-911f80eea32e"
 							"name" "string" "normal:0"
 							"standardAttributeName" "string" "normal"
 							"semanticName" "string" "normal"
@@ -3106,7 +3136,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "3cab053f-326e-4582-8454-43b98643a904"
+							"id" "elementid" "50e38d78-e688-4c57-b8b6-641eb5c21ff3"
 							"name" "string" "tangent:0"
 							"standardAttributeName" "string" "tangent"
 							"semanticName" "string" "tangent"
@@ -3165,13 +3195,13 @@
 
 				"edgeData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "0527d074-5923-4c4e-9f59-31fe8a16185e"
+					"id" "elementid" "e77ad1c4-944f-468a-b352-7c8d8d7585cc"
 					"size" "int" "21"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "91aa9aa6-fa1f-4701-95ea-e479a888f71b"
+							"id" "elementid" "8ef3e06c-9fc8-4011-941d-afc1b4c17447"
 							"name" "string" "flags:0"
 							"standardAttributeName" "string" "flags"
 							"semanticName" "string" "flags"
@@ -3209,13 +3239,13 @@
 
 				"faceData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "da5bb170-1893-4311-9387-6560e0dcae1a"
+					"id" "elementid" "04872efb-6389-4548-8823-1ff1ee077b2b"
 					"size" "int" "9"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "72c0951b-63b7-45d4-80fe-d6e590d345d4"
+							"id" "elementid" "0a278d64-46f6-4422-adc8-69ccd3c2c911"
 							"name" "string" "textureScale:0"
 							"standardAttributeName" "string" "textureScale"
 							"semanticName" "string" "textureScale"
@@ -3225,7 +3255,7 @@
 							"subdivisionBinding" "element" ""
 							"data" "vector2_array" 
 							[
-								"0.2500006258 0.2500022054",
+								"0.250000298 0.2500022352",
 								"0.2500014901 0.2499998808",
 								"0.391490519 0.2499999702",
 								"0.3704972565 0.2499999404",
@@ -3238,7 +3268,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "9804c105-b305-42a1-8141-b8a0711eefb8"
+							"id" "elementid" "3690d7ba-1627-45f9-b1f6-021f9abfa0a2"
 							"name" "string" "textureAxisU:0"
 							"standardAttributeName" "string" "textureAxisU"
 							"semanticName" "string" "textureAxisU"
@@ -3248,9 +3278,9 @@
 							"subdivisionBinding" "element" ""
 							"data" "vector4_array" 
 							[
-								"0.908467114 -0.4179564714 0 56.236328125",
-								"0.9084673524 -0.4179559648 0 56.171875",
-								"-0.8166942 0.577070713 0 168.9931640625",
+								"0.9084676504 -0.4179552495 0 56.25390625",
+								"0.9084673524 -0.4179559648 0 56.2734375",
+								"-0.8166942 0.577070713 0 168.9423828125",
 								"-0.2909836471 0.9567279816 0 28.9897460938",
 								"0.9557056427 0.2943243086 0 117.9165039062",
 								"0.8712280393 0.490878433 0 96.5473632812",
@@ -3261,7 +3291,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "ef46fb51-fe5b-46bd-a408-176fa9d633d6"
+							"id" "elementid" "9ba22c38-2de8-4a7e-83f7-640c5dbb3d00"
 							"name" "string" "textureAxisV:0"
 							"standardAttributeName" "string" "textureAxisV"
 							"semanticName" "string" "textureAxisV"
@@ -3271,7 +3301,7 @@
 							"subdivisionBinding" "element" ""
 							"data" "vector4_array" 
 							[
-								"-0.4179511964 -0.9084694982 0 195.8999023438",
+								"-0.4179511666 -0.9084694982 0 195.904296875",
 								"-0.4179518819 -0.9084692597 0 196.0030517578",
 								"0 0 -1 255.9995117188",
 								"0 0 -1 255.9997558594",
@@ -3284,7 +3314,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "d48b8b69-fed1-4833-a14c-2e2f9d468096"
+							"id" "elementid" "6a14816a-e786-498a-af1e-9ff979cf02cd"
 							"name" "string" "materialindex:0"
 							"standardAttributeName" "string" "materialindex"
 							"semanticName" "string" "materialindex"
@@ -3307,7 +3337,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "ebb228e5-1fde-4445-a498-1de17c6eccad"
+							"id" "elementid" "83898cbb-4979-41e1-86b9-7a8c1017fad2"
 							"name" "string" "flags:0"
 							"standardAttributeName" "string" "flags"
 							"semanticName" "string" "flags"
@@ -3330,7 +3360,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "f30b35dd-7cf5-41fd-a64c-8dbe498f056f"
+							"id" "elementid" "1bb0aad6-1b41-44da-9c84-554e7420cd0f"
 							"name" "string" "lightmapScaleBias:0"
 							"standardAttributeName" "string" "lightmapScaleBias"
 							"semanticName" "string" "lightmapScaleBias"
@@ -3356,7 +3386,7 @@
 
 				"subdivisionData" "CDmePolygonMeshSubdivisionData"
 				{
-					"id" "elementid" "2910c3e0-afe8-4f95-b7cb-383a34fe3002"
+					"id" "elementid" "8c8cd486-5808-4b86-a1e5-f4a90935365d"
 					"subdivisionLevels" "int_array" 
 					[
 						"0",
@@ -3409,12 +3439,19 @@
 
 			}
 
+			"physicsIncludedDetailLayers" "element_array" 
+			[
+			]
+			"physicsMissingDetailLayers" "element_array" 
+			[
+			]
 			"origin" "vector3" "-3251.82421875 2589.8359375 310.4998779297"
 			"angles" "qangle" "0 335.2944946289 0"
 			"scales" "vector3" "1 1 1"
 			"transformLocked" "bool" "0"
 			"force_hidden" "bool" "0"
 			"editorOnly" "bool" "0"
+			"customVisGroup" "string" ""
 			"randomSeed" "int" "1312307705"
 			"disableShadows" "int" "0"
 			"bakelighting" "bool" "1"
@@ -3451,7 +3488,7 @@
 	]
 	"relayPlugData" "DmePlugList"
 	{
-		"id" "elementid" "3663774b-4cc8-4717-a5a9-2d5037236f34"
+		"id" "elementid" "580a63fe-b7e3-43c3-8c34-36d995f8913e"
 		"names" "string_array" 
 		[
 		]
@@ -3471,21 +3508,21 @@
 	]
 	"entity_properties" "EditGameClassProps"
 	{
-		"id" "elementid" "aaca6e9b-44bb-484e-91ff-302ff4dc6804"
+		"id" "elementid" "6c58cad1-1d4f-4b61-87fc-d3b52860d05b"
 		"classname" "string" "trigger_no_wards"
-		"targetname" "string" ""
-		"vscripts" "string" ""
-		"parentname" "string" ""
-		"parentAttachmentName" "string" ""
-		"local.origin" "string" ""
-		"local.angles" "string" ""
-		"local.scales" "string" ""
-		"useLocalOffset" "string" "0"
-		"StartDisabled" "string" "0"
-		"globalname" "string" ""
-		"spawnflags" "string" "64"
-		"filtername" "string" ""
 		"source1_brushmodel_index" "string" "49"
+		"filtername" "string" ""
+		"spawnflags" "string" "64"
+		"globalname" "string" ""
+		"StartDisabled" "string" "0"
+		"useLocalOffset" "string" "0"
+		"local.scales" "string" ""
+		"local.angles" "string" ""
+		"local.origin" "string" ""
+		"parentAttachmentName" "string" ""
+		"parentname" "string" ""
+		"vscripts" "string" ""
+		"targetname" "string" ""
 	}
 
 	"hitNormal" "vector3" "0 0 1"
@@ -3496,18 +3533,19 @@
 	"transformLocked" "bool" "0"
 	"force_hidden" "bool" "0"
 	"editorOnly" "bool" "0"
+	"customVisGroup" "string" ""
 	"randomSeed" "int" "350916244"
 }
 "CMapEntity"
 {
-	"id" "elementid" "c15bc7cf-1d78-4a7c-bb08-d926e8e23a3d"
+	"id" "elementid" "7ff5d496-0e8e-479c-b729-49d7355a84bd"
 	"nodeID" "int" "28496"
 	"referenceID" "uint64" "0xe936ecc80a2c264d"
 	"children" "element_array" 
 	[
 		"CMapMesh"
 		{
-			"id" "elementid" "71e790c7-6b14-4272-a676-d85c19edb99a"
+			"id" "elementid" "c7d470bc-d6e1-49f7-a459-48da7eb81cb1"
 			"nodeID" "int" "28497"
 			"referenceID" "uint64" "0xfcc90b38650191a4"
 			"children" "element_array" 
@@ -3521,7 +3559,7 @@
 			]
 			"meshData" "CDmePolygonMesh"
 			{
-				"id" "elementid" "f058ef28-7d1b-47e4-9e8a-046963539995"
+				"id" "elementid" "68dea636-19a0-432b-ad3f-95a0019851dc"
 				"name" "string" "meshData"
 				"vertexEdgeIndices" "int_array" 
 				[
@@ -3857,13 +3895,13 @@
 				]
 				"vertexData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "14c42ecd-5816-41ab-9db0-b12d3771a7a9"
+					"id" "elementid" "73f75906-55fb-47a2-9aa5-b3c92afa5fe9"
 					"size" "int" "14"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "ee994002-254b-4df8-b3d7-cc42a3083913"
+							"id" "elementid" "31c6ddb7-7be1-4b8f-963b-8159678efcf5"
 							"name" "string" "position:0"
 							"standardAttributeName" "string" "position"
 							"semanticName" "string" "position"
@@ -3894,13 +3932,13 @@
 
 				"faceVertexData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "f4d124c4-7678-4db9-bccd-41af55eba058"
+					"id" "elementid" "9dfd639f-747f-487c-abf7-1797ad310867"
 					"size" "int" "42"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "865e078f-53c4-4190-98e6-ebcdcd745a97"
+							"id" "elementid" "14a078ca-22f4-484a-903d-9ed7936e65a0"
 							"name" "string" "texcoord:0"
 							"standardAttributeName" "string" "texcoord"
 							"semanticName" "string" "texcoord"
@@ -3913,8 +3951,8 @@
 								"37.356010437 0.75",
 								"37.356010437 -8.4531259537",
 								"-23.7336769104 -8.453125",
-								"43.9584960938 -8.453125",
-								"-45.7276992798 -52.6550712585",
+								"43.9583969116 -8.453125",
+								"-45.7276763916 -52.6548576355",
 								"37.340549469 0.75",
 								"4.931687355 0.7500009537",
 								"32.4684143066 0.75",
@@ -3925,28 +3963,28 @@
 								"-35.3776855469 -51.4504966736",
 								"-2.0568087101 -8.453125",
 								"4.931687355 -8.453125",
-								"-47.8563766479 -41.4229660034",
+								"-47.8563537598 -41.4227676392",
 								"-47.8561935425 -41.4229927063",
 								"-26.9242420197 0.7500029802",
 								"37.340549469 -8.4531259537",
 								"-41.2168426514 -53.1644973755",
-								"43.9584960938 0.7500009537",
-								"-30.4369258881 -44.6490821838",
+								"43.9583969116 0.7500009537",
+								"-30.436914444 -44.6489028931",
 								"32.4684143066 -8.4531269073",
-								"-35.377784729 -51.450466156",
-								"-37.9984130859 -37.9971504211",
+								"-35.3777694702 -51.4502716064",
+								"-37.9984054565 -37.9969749451",
 								"39.3078651428 -8.4531269073",
 								"-50.2289886475 -48.1669197083",
-								"39.0333175659 0.7500009537",
+								"39.0332183838 0.7500009537",
 								"39.3078651428 0.75",
-								"39.0333175659 -8.453125",
+								"39.0332183838 -8.453125",
 								"-30.4367904663 -44.64894104",
 								"43.0146560669 0.75",
-								"-41.2169418335 -53.1643714905",
+								"-41.2169265747 -53.1641693115",
 								"33.2498130798 -8.4531259537",
 								"43.0146522522 -8.4531259537",
 								"33.2498130798 0.75",
-								"-50.229133606 -48.166759491",
+								"-50.2291107178 -48.1665496826",
 								"4.7044210434 -8.4531269073",
 								"-0.3027369976 0.75",
 								"-45.7275848389 -52.6552429199",
@@ -3956,7 +3994,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "765aac44-c3ae-44d2-ab10-e3e490ef2e50"
+							"id" "elementid" "6ba2800a-cefb-4ab0-8782-d9feab4ec120"
 							"name" "string" "normal:0"
 							"standardAttributeName" "string" "normal"
 							"semanticName" "string" "normal"
@@ -4012,7 +4050,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "bca6f00f-39d9-4295-84f1-287b60866146"
+							"id" "elementid" "828935b9-376b-4bff-88f9-c9a2f58accdb"
 							"name" "string" "tangent:0"
 							"standardAttributeName" "string" "tangent"
 							"semanticName" "string" "tangent"
@@ -4071,13 +4109,13 @@
 
 				"edgeData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "a0070c27-5863-48e4-89bf-ee50608a7046"
+					"id" "elementid" "a2885ffa-b12f-4d4a-a43d-22470183064d"
 					"size" "int" "21"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "9774fe4a-6db1-487a-b533-0097880673bc"
+							"id" "elementid" "4613aeea-475f-4bc4-97ec-f4bc0ef37c58"
 							"name" "string" "flags:0"
 							"standardAttributeName" "string" "flags"
 							"semanticName" "string" "flags"
@@ -4115,13 +4153,13 @@
 
 				"faceData" "CDmePolygonMeshDataArray"
 				{
-					"id" "elementid" "8efe65dd-c38e-409b-a2c5-062424d561bb"
+					"id" "elementid" "b64691de-a1c4-4215-8962-e19210e305cc"
 					"size" "int" "9"
 					"streams" "element_array" 
 					[
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "dc981a1b-bcf0-4413-9b8f-b25f2ead4a1a"
+							"id" "elementid" "4deeb9a4-2086-4162-815a-bb50f1c09a29"
 							"name" "string" "textureScale:0"
 							"standardAttributeName" "string" "textureScale"
 							"semanticName" "string" "textureScale"
@@ -4131,7 +4169,7 @@
 							"subdivisionBinding" "element" ""
 							"data" "vector2_array" 
 							[
-								"0.2500004172 0.2500036657",
+								"0.2500005662 0.2500041723",
 								"0.2500008941 0.249999851",
 								"0.3814757168 0.2499999404",
 								"0.3714116216 0.2499999702",
@@ -4144,7 +4182,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "7918468a-24df-4c08-97c3-185b2bd221c8"
+							"id" "elementid" "343fb505-3358-4dc1-91b6-aecf52d01c56"
 							"name" "string" "textureAxisU:0"
 							"standardAttributeName" "string" "textureAxisU"
 							"semanticName" "string" "textureAxisU"
@@ -4154,20 +4192,20 @@
 							"subdivisionBinding" "element" ""
 							"data" "vector4_array" 
 							[
-								"-0.9966865182 -0.0813394412 0 55.5678710938",
+								"-0.9966864586 -0.0813395381 0 55.5639648438",
 								"-0.9966870546 -0.081333302 0 55.6586914062",
 								"0.9681536555 -0.2503568828 0 130.5791015625",
 								"0.6515873671 -0.7585735321 0 151.5732421875",
 								"-0.6483607292 -0.7613332868 0 183.8584594727",
 								"-0.694609046 -0.7193874121 0 42.8692626953",
-								"0.407522738 -0.913195014 0 188.8671875",
+								"0.407522738 -0.913195014 0 188.841796875",
 								"0.9792463183 -0.2026738524 0 112.2119140625",
 								"-0.9812700152 -0.1926376224 0 247.3422851562"
 							]
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "842d3ae2-ca55-47f0-a5b4-720c8db42e7f"
+							"id" "elementid" "17bf1422-3917-402e-93e0-62b07f8b4b3a"
 							"name" "string" "textureAxisV:0"
 							"standardAttributeName" "string" "textureAxisV"
 							"semanticName" "string" "textureAxisV"
@@ -4177,7 +4215,7 @@
 							"subdivisionBinding" "element" ""
 							"data" "vector4_array" 
 							[
-								"-0.0813254267 0.9966875911 0 151.04296875",
+								"-0.0813241899 0.9966877699 0 151.056640625",
 								"-0.0813377053 0.9966866374 0 151.3525390625",
 								"0 0 -1 127.9999847412",
 								"0 0 -1 127.9999923706",
@@ -4190,7 +4228,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "fdc47dc9-640f-49b6-b2bc-42fc4deaf1d7"
+							"id" "elementid" "b665a8b7-0d8d-455d-a452-ae10b4201e35"
 							"name" "string" "materialindex:0"
 							"standardAttributeName" "string" "materialindex"
 							"semanticName" "string" "materialindex"
@@ -4213,7 +4251,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "7af5000f-287b-473d-b242-be26f763778d"
+							"id" "elementid" "499d3bdb-77ee-4a87-85b4-37acd159fc6a"
 							"name" "string" "flags:0"
 							"standardAttributeName" "string" "flags"
 							"semanticName" "string" "flags"
@@ -4236,7 +4274,7 @@
 						},
 						"CDmePolygonMeshDataStream"
 						{
-							"id" "elementid" "2ea32571-8afb-414c-b082-4bc0c82097e7"
+							"id" "elementid" "464d87b8-8d3e-461b-934f-185fa6c5c790"
 							"name" "string" "lightmapScaleBias:0"
 							"standardAttributeName" "string" "lightmapScaleBias"
 							"semanticName" "string" "lightmapScaleBias"
@@ -4262,7 +4300,7 @@
 
 				"subdivisionData" "CDmePolygonMeshSubdivisionData"
 				{
-					"id" "elementid" "f2a2b1c3-3064-473b-a302-f6a3e5588d97"
+					"id" "elementid" "19290cc0-3dfd-40a7-b436-d48ea635dd73"
 					"subdivisionLevels" "int_array" 
 					[
 						"0",
@@ -4315,12 +4353,19 @@
 
 			}
 
+			"physicsIncludedDetailLayers" "element_array" 
+			[
+			]
+			"physicsMissingDetailLayers" "element_array" 
+			[
+			]
 			"origin" "vector3" "3117.6840820312 -2844.2712402344 278.5"
 			"angles" "qangle" "0 184.6651763916 0"
 			"scales" "vector3" "1 1 1"
 			"transformLocked" "bool" "0"
 			"force_hidden" "bool" "0"
 			"editorOnly" "bool" "0"
+			"customVisGroup" "string" ""
 			"randomSeed" "int" "1268794430"
 			"disableShadows" "int" "0"
 			"bakelighting" "bool" "1"
@@ -4357,7 +4402,7 @@
 	]
 	"relayPlugData" "DmePlugList"
 	{
-		"id" "elementid" "b81e2d0a-7ce8-49c6-aaf0-eaf01fa9b109"
+		"id" "elementid" "c2e62590-9265-408d-864d-fe998f008445"
 		"names" "string_array" 
 		[
 		]
@@ -4377,21 +4422,21 @@
 	]
 	"entity_properties" "EditGameClassProps"
 	{
-		"id" "elementid" "8585b318-3040-471b-b375-21142023b592"
+		"id" "elementid" "8f490fe5-1b4d-4d1e-8898-8d015594f7f1"
 		"classname" "string" "trigger_no_wards"
-		"targetname" "string" ""
-		"vscripts" "string" ""
-		"parentname" "string" ""
-		"parentAttachmentName" "string" ""
-		"local.origin" "string" ""
-		"local.angles" "string" ""
-		"local.scales" "string" ""
-		"useLocalOffset" "string" "0"
-		"StartDisabled" "string" "0"
-		"globalname" "string" ""
-		"spawnflags" "string" "64"
-		"filtername" "string" ""
 		"source1_brushmodel_index" "string" "49"
+		"filtername" "string" ""
+		"spawnflags" "string" "64"
+		"globalname" "string" ""
+		"StartDisabled" "string" "0"
+		"useLocalOffset" "string" "0"
+		"local.scales" "string" ""
+		"local.angles" "string" ""
+		"local.origin" "string" ""
+		"parentAttachmentName" "string" ""
+		"parentname" "string" ""
+		"vscripts" "string" ""
+		"targetname" "string" ""
 	}
 
 	"hitNormal" "vector3" "0 0 1"
@@ -4402,5 +4447,6 @@
 	"transformLocked" "bool" "0"
 	"force_hidden" "bool" "0"
 	"editorOnly" "bool" "0"
+	"customVisGroup" "string" ""
 	"randomSeed" "int" "115370300"
 }
